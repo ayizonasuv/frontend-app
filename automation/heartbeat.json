@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "timestamp": "2024-02-29T12:34:56.789Z",
+  "version": "1.2.3",
+  "environment": "production",
+  "uptime": 3600,
+  "data": {
+    "cpu_load": 0.15,
+    "memory_usage": 0.6,
+    "active_users": 123
+  },
+  "dependencies": {
+    "api_server": {
+      "status": "ok",
+      "response_time": 0.025
+    },
+    "database": {
+      "status": "ok",
+      "connection_count": 10
+    }
+  }
+}
